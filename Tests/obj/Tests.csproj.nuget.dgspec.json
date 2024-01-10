@@ -1,0 +1,103 @@
+{
+  "format": 1,
+  "restore": {
+    "Q:\\Repo\\MineSweeper\\MineSweeper\\Tests\\Tests.csproj": {}
+  },
+  "projects": {
+    "Q:\\Repo\\MineSweeper\\MineSweeper\\MineSweeper\\MineSweeper.csproj": {
+      "restore": {
+        "projectUniqueName": "Q:\\Repo\\MineSweeper\\MineSweeper\\MineSweeper\\MineSweeper.csproj",
+        "projectName": "MineSweeper",
+        "projectPath": "Q:\\Repo\\MineSweeper\\MineSweeper\\MineSweeper\\MineSweeper.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "Q:\\Repo\\MineSweeper\\MineSweeper\\Tests\\Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "Q:\\Repo\\MineSweeper\\MineSweeper\\Tests\\Tests.csproj",
+        "projectName": "Tests",
+        "projectPath": "Q:\\Repo\\MineSweeper\\MineSweeper\\Tests\\Tests.csproj",
+        "packagesPath": "C:\\Users\\werdu\\.nuget\\packages\\",
+        "outputPath": "Q:\\Repo\\MineSweeper\\MineSweeper\\Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\werdu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "Q:\\Repo\\MineSweeper\\MineSweeper\\MineSweeper\\MineSweeper.csproj": {
+                "projectPath": "Q:\\Repo\\MineSweeper\\MineSweeper\\MineSweeper\\MineSweeper.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.2.10, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.2.10, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.5.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
